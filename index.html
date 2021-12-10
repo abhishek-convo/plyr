@@ -4,15 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://unpkg.com/plyr@3/dist/plyr.css" />
     <style>
       .container {
         margin: 50px auto;
         max-width: 500px;
       }
     </style>
-
-    <script src="https://unpkg.com/plyr@3.6.9/dist/plyr.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -25,11 +22,5 @@
       </video>
     </div>
     <!-- Plyr resources and browser polyfills are specified in the pen settings -->
-    <script>
-      const player = new Plyr("video", {});
-
-      // Expose player so it can be used from the console
-      window.player = player;
-    </script>
   </body>
 </html>
